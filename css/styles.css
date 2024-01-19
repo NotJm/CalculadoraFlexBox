@@ -26,12 +26,12 @@ button {
     transition: background-color 0.3s ease; /* Transición suave de color */
 }
 
-.sign {
+.sign, #btn-clear, #btn-equals, #btn-backspace {
     background-color: rgb(71, 177, 233);
     color: white;
 }
 
-.sign:hover {
+.sign:hover, #btn-clear:hover, #btn-equals, #btn-backspace {
     background-color: rgb(65, 162, 213);
 }
 
