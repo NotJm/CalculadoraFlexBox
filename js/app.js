@@ -23,9 +23,9 @@ signeds.forEach((signed) => {
 
 reset.onclick = () => reReset();
 
-backspace.onclick = () => {
-    result.value = result.value.substring(0, result.value.length - 1);
-};
+clear = () => result.value = "";
+
+backspace.onclick = () => result.value = result.value.substring(0, result.value.length - 1);
 
 
 equals.onclick = () => {
@@ -33,9 +33,6 @@ equals.onclick = () => {
     resolve();
 };
 
-const clear = () => {
-    result.value = "";
-};
 
 const reReset = () => {
     result.value = "";
